@@ -36,3 +36,116 @@
     transform: rotate(360deg);
   }
 }
+
+
+.footer_main_box{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  padding: 20px 0px;
+  background: #80808054;
+  border-top: 1px solid grey;
+}
+
+.footer_sub_box{
+  flex: 1;
+}
+
+.footer_child_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.footer_image{
+  width: 100%;
+  height: calc(100% - 24px);
+}
+
+.Repo_title{
+  font-size: 29px;
+    padding: 30px;
+    border-bottom: 1px solid grey;
+    background: #8080807d;
+}
+
+.Repo_main_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid grey;
+}
+
+.Repo_main_box_title{
+  font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.Repo_main_box_child_item_box{
+  display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Repo_main_box_child_item{
+  display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Repo_main_box_child_item_icon{
+  width: 30px;
+    height: 30px;
+}
+
+.Repo_main_box_detail{
+  font-size: 15px;
+    text-align: left;
+}
+
+.Repo_scroll_box{
+  height: calc(100vh - 185px);
+    overflow: scroll;
+}
+
+.repo_loader_box{
+  height: calc(100vh - 185px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+  height: 40px;
+    padding: 10px;
+}
+
+.infinite-scroll-component{
+  overflow-x: hidden;
+}
+
+.active .footer_image{
+  filter: invert(8%) sepia(99%) saturate(7134%) hue-rotate(247deg) brightness(100%) contrast(143%);
+}
+
+.active .footer_title_item{
+  color: blue;
+}
+
+.setting_page{
+  width: 100%;
+    height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
